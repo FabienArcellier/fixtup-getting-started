@@ -1,3 +1,16 @@
+[tool.poetry]
+name = "fixtup-getting-started"
+version = "0.1.0"
+description = ""
+authors = ["Fabien Arcellier <fabien.arcellier@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fixtup_getting_started"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^9.3.0"
+
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta:__legacy__"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
