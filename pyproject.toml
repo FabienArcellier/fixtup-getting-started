@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Fabien Arcellier <fabien.arcellier@gmail.com>"]
 readme = "README.md"
-packages = [{include = "fixtup_getting_started"}]
+packages = [{include = "lib"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
